@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Home Section -->
+    <section id="home">
+      <header>
+        <h1>Movie Explorer</h1>
+        <p>Descubre y busca tus películas favoritas</p>
+      </header>
+    </section>
+
+    <!-- Movie Gallery Section -->
+    <section id="movie-gallery">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar película..." />
+        <button id="search-btn">Buscar</button>
+      </div>
+      <div id="movies-container" class="movies-grid"></div>
+    </section>
+
+    <!-- Movie Modal -->
+    <div id="movie-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-movie-info"></div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
